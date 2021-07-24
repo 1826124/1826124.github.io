@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+body{
+
+    font-size: 16px;
+
+    font-family:Meiroy,"メイリオ";
+
+    background-image: url(../../Task2/img/2554298.jpg);
+  
+    background-repeat: no-repeat;
+
+    background-size: 500%;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(131, 247, 141);
+}
+
+.me{
+    color: rgba(243, 72, 29, 0.925);
+}
+
+.de{
+    color: rgb(55, 147, 233);
+}
+
+a:link {
+    color: rgb(23, 122, 28);
+}
+a:visited {
+    color: rgb(166, 236, 248);
+}
+
+.box-wrapper {
+    overflow: hidden;
+}
+
+#box1 {
+    float: left;
+    width: 49%;
+    height: 200px;
+    background-color: rgba(255, 155, 83, 0.87);
+}
+
+#box2 {
+    float: left;
+    margin-left: 2%;
+    width: 49%;
+    height: 200px;
+    background-color: rgba(69, 212, 212, 0.993);
+}
+
+.ira {
+    float: right;
+    margin-left: 2%;
+    width: 30%;
+    height: 250px;
+    background-color: rgba(242, 247, 247, 0.993);
+}
+
+#ac{
+    color: rgba(255, 155, 83, 0.87);
+}
+
+#ji{
+    color: rgba(62, 226, 226, 0.993);
+}
+
+.nam{
+
+    font-size: 21px;
+    
+    line-height: 0.8em;
+}
+
+.me , .de{
+    line-height: 0.3em;
+}
+
+.bottom_space {
+    margin-bottom: 3em;
+  }
+
+  #tt{
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.3em;
+    color: blue;
+  
+  }
+
+   #omikuji {
+    margin: 0 auto;
+    width: 500px;
+    height: 250px;
+    border: 1px solid #333;
+    text-align: center;
+    padding:  40px 0;
+    box-sizing: border-box;
+    font-size: 60px;
+    border-radius: 10px;
+    background: rgb(210, 255, 251);
+  }
+  
+  #omikuji:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+
+  h4{
+      line-height: 1.5em
+
+  }
